@@ -92,6 +92,8 @@ window.onload=startclock;
 <body>
 <?php include('navfixed.php');?>
 	<?php
+// The dashboard is role-driven: each role (set at login) gets its own sidebar
+// and set of shortcuts, so I branch on the logged-in user's position here.
 $position=$_SESSION['SESS_LAST_NAME'];
 if($position=='Administrator') {
 ?>
