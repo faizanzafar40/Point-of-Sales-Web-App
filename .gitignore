@@ -1,0 +1,22 @@
+# Local environment / secrets
+.env
+*.local
+
+# PHP / Composer (if ever introduced)
+/vendor/
+composer.phar
+
+# Logs and runtime
+*.log
+error_log
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
